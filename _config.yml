@@ -1,34 +1,31 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# permalink: pretty
+permalink: /:year/:month/:title
 # relative_permalinks: true
 
 # Setup
-title:               doubleCat
-tagline:             '..blahblah'
-description:         'dev something'
-url:                 https://enplus.github.io
-baseurl:             /
-favicon: public/favicon.ico
-navigation: True
-
-
-paginate:            8
+title:              doubleCat
+tagline:            '..blahblah'
+description:        'dev something'
+url:                https://enplus.github.io
+baseurl:            ''
+favicon:            public/favicon.ico
+paginate:           8
+navigation:         True
 
 # About/contact
 author:
-  name:              Enplus
-  url:               https://haskell.site
-  email:             doublebind96@gmail.com
+  name:             Enplus
+  url:              https://haskell.site
+  email:            doublebind96@gmail.com
 
 # Custom vars
-version:             1.0.0
-plugins: ['jekyll-paginate']
+version:            1.0.0
+plugins:            ['jekyll-paginate']
 
 # 
-markdown: kramdown
+markdown:           kramdown
 # krandown - Markdown 개조판.
-
-highlighter: rouge
-
+highlighter:        rouge
