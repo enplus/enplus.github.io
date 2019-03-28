@@ -9,7 +9,7 @@ permalink: /:year/:month/:title
 title:              doubleCat
 tagline:            '..blahblah'
 description:        'dev something'
-url:                https://enplus.github.io/
+url:                "https://enplus.github.io/"
 baseurl:            ''
 favicon:            public/favicon.ico
 paginate:           8
