@@ -7,10 +7,14 @@ permalink:           pretty
 # Setup
 title:               doubleCat
 tagline:             '..blahblah'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
-paginate:            5
+description:         'dev something'
+url:                 https://enplus.github.io
+baseurl:             /
+favicon: public/favicon.ico
+navigation: True
+
+
+paginate:            8
 
 # About/contact
 author:
@@ -21,4 +25,10 @@ author:
 # Custom vars
 version:             1.0.0
 plugins: ['jekyll-paginate']
+
+# 
+markdown: kramdown
+# krandown - Markdown 개조판.
+
+highlighter: rouge
 
