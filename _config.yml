@@ -7,19 +7,19 @@ permalink: /:year/:month/:title
 
 # Setup
 title:              doubleCat
-tagline:            '..blahblah'
-description:        'dev something'
+tagline:            ..blahbl
+description:        dev something
 url:                "enplus.github.io"
 baseurl:            ''
-favicon:            public/favicon.ico
+favicon:            'public/favicon.ico'
 paginate:           8
 navigation:         True
 
 # About/contact
 author:
   name:             Enplus
+  url:              https://haskell.site
   email:            doublebind96@gmail.com
-# url:              https://haskell.site
 
 # Custom vars
 version:            1.0.0
